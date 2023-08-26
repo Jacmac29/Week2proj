@@ -1,0 +1,30 @@
+:root{
+    --BGcolor: 
+}
+html {
+    background-color: turquoise;
+}
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    color: blue;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+nav li{
+    font-weight: bold;
+    text-decoration: none;
+}
+nav li:hover{
+ color: rgb(197, 8, 8);
+}
+
+main{
+    display: flex;
+}
